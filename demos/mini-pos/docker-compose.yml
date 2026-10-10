@@ -1,0 +1,20 @@
+services:
+  api:
+    build: ./api
+    environment:
+      PORT: "4002"
+      DB_PATH: /data/pos.db
+    volumes:
+      - posdata:/data
+    ports:
+      - "4002:4002"
+
+  web:
+    build: ./web
+    ports:
+      - "4200:80"
+    depends_on:
+      - api
+
+volumes:
+  posdata:
