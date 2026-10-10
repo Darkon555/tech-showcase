@@ -81,4 +81,4 @@ tech-showcase/
 
 ---
 
-**Author:** Daniel Fausto Franco · [GitHub](https://github.com/Darkon555) · [LinkedIn](https://www.linkedin.com/in/daniel-fausto-franco/)
+**Author:** Daniel Fausto Franco · [GitHub](https://github.com/daniel-fausto) · [LinkedIn](https://www.linkedin.com/in/daniel-fausto-franco/)
